@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<info id="101" equipstar="1" mainattr="atk%def,3,3|hp,17,17|atkrate%defrate%hprate%spd%bfh%bfa%crt,10,10|crd,15,15" viceattr="atk%def,2,2|hp,11,17|atkrate%defrate%hprate%spd%bfh%bfa%crt%hit%avd,10,12|crd,15,18" />
+<info id="102" equipstar="2" mainattr="atk%def,5,5|hp,33,33|atkrate%defrate%hprate%spd%bfh%bfa%crt,20,10|crd,30,15" viceattr="atk%def,3,5|hp,21,31|atkrate%defrate%hprate%spd%bfh%bfa%crt%hit%avd,12,15|crd,18,23" />
+<info id="103" equipstar="3" mainattr="atk%def,8,8|hp,52,52|atkrate%defrate%hprate%spd%bfh%bfa%crt,25,15|crd,38,23" viceattr="atk%def,5,7|hp,33,50|atkrate%defrate%hprate%spd%bfh%bfa%crt%hit%avd,15,18|crd,23,27" />
+<info id="104" equipstar="4" mainattr="atk%def,15,15|hp,98,98|atkrate%defrate%hprate%spd%bfh%bfa%crt,30,20|crd,45,30" viceattr="atk%def,9,14|hp,63,94|atkrate%defrate%hprate%spd%bfh%bfa%crt%hit%avd,18,22|crd,27,33" />
+<info id="105" equipstar="5" mainattr="atk%def,23,23|hp,155,155|atkrate%defrate%hprate%spd%bfh%bfa%crt,40,25|crd,60,38" viceattr="atk%def,15,22|hp,99,149|atkrate%defrate%hprate%spd%bfh%bfa%crt%hit%avd,20,25|crd,30,38" awakenattr="atkrate%defrate%hprate%spd%bfh%bfa%crt%hit%avd,60,80|crd,90,120" />
+<info id="106" equipstar="6" mainattr="atk%def,37,37|hp,244,244|atkrate%defrate%hprate%spd%bfh%bfa%crt,50,30|crd,75,45" viceattr="atk%def,23,35|hp,156,235|atkrate%defrate%hprate%spd%bfh%bfa%crt%hit%avd,25,30|crd,38,45" awakenattr="atkrate%defrate%hprate%spd%bfh%bfa%crt%hit%avd,80,100|crd,120,150" />
+</root>

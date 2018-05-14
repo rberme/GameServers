@@ -1,0 +1,21 @@
+syntax = "proto3";
+package ChatModel;
+
+message ChatMessage
+{
+    string content = 1;//内容
+    int32 id = 2;//id
+    string nick = 3;//昵称
+}
+
+
+message ChaterInfo
+{
+    string nick = 1;
+    int32 id = 2;
+}
+
+message AllChaterInfo
+{
+    repeated ChaterInfo data = 1;
+}

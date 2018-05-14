@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<info skillid="10001" skillmodeid="20011" info="附加暗影注视" buffid="501" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10003" skillmodeid="20002" info="造成攻击100%伤害" skillratebase="1000" skillratedelta="0" />
+<info skillid="10004" skillmodeid="20002" info="造成攻击300%伤害" skillratebase="3000" skillratedelta="0" />
+<info skillid="10005" skillmodeid="20002" info="造成攻击40%伤害" skillratebase="400" skillratedelta="0" />
+<info skillid="10006" skillmodeid="20030" info="消耗90%血量，造成耗血100%伤害" />
+<info skillid="10007" skillmodeid="20002" info="造成攻击200%伤害" skillratebase="2000" skillratedelta="0" />
+<info skillid="10008" skillmodeid="20002" info="造成攻击150%伤害" skillratebase="1500" skillratedelta="0" />
+<info skillid="10009" skillmodeid="80001" info="对目标全体造成敌人死亡数量+1段攻击60%伤害" target="giveAllTarget" skillratebase="600" skillratedelta="0" />
+<info skillid="10010" skillmodeid="20032" info="若目标血量小于20%，则直接斩杀目标，但最高不能超过攻击1000%伤害|否则||1段|攻击150%伤害" skillratebase="1500" skillratedelta="0" hpratebelow="200" atkskillratebase="10000" atkskillratedelta="0" />
+<info skillid="10013" skillmodeid="20040" info="造成攻击60%*（自身攻击/目标攻击）伤害" skillratebase="600" skillratedelta="0" />
+<info skillid="10015" skillmodeid="20034" info="每次消耗1点萌力，|1段|攻击75%伤害，直到萌力消耗完为止" skillratebase="750" skillratedelta="0" />
+<info skillid="10016" skillmodeid="20007" info="释放一次普攻" ratebase="1000" ratedelta="0" />
+<info skillid="10017" skillmodeid="20001" info="闪避反击" buffid="505" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10018" skillmodeid="20001" info="19级buff减受到伤害" buffid="411" bufflvbase="19" bufflvdelta="0" />
+<info skillid="10019" skillmodeid="20001" info="减益魔免" buffid="506" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10020" skillmodeid="20001" info="7级buff加造成伤害" buffid="410" bufflvbase="7" bufflvdelta="0" />
+<info skillid="10021" skillmodeid="20001" info="萌力消耗减少1" buffid="507" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10022" skillmodeid="20012" info="防御200%护盾" armorskillratebase="2000" armorskillratedelta="0" />
+<info skillid="10023" skillmodeid="20001" info="伤害转移" buffid="508" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10024" skillmodeid="20012" info="防御100%护盾" armorskillratebase="1000" armorskillratedelta="0" />
+<info skillid="10025" skillmodeid="20001" info="伤害转化行动条" buffid="509" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10026" skillmodeid="20012" info="防御40%护盾" armorskillratebase="400" armorskillratedelta="0" />
+<info skillid="10027" skillmodeid="20001" info="伤害转化护盾" buffid="510" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10028" skillmodeid="20011" info="39级buff减造成伤害" buffid="423" bufflvbase="39" bufflvdelta="0" />
+<info skillid="10029" skillmodeid="20011" info="持伤加倍" buffid="502" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10030" skillmodeid="20011" info="19级buff加受到伤害" buffid="424" bufflvbase="19" bufflvdelta="0" />
+<info skillid="10031" skillmodeid="20011" info="增益魔免" buffid="503" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10032" skillmodeid="20011" info="7级buff减治疗效果" buffid="426" bufflvbase="7" bufflvdelta="0" />
+<info skillid="10033" skillmodeid="20011" info="萌力消耗增加1" buffid="504" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10034" skillmodeid="20009" info="恢复攻击200%血量" healskillratebase="1000" healskillratedelta="0" />
+<info skillid="10035" skillmodeid="20001" info="受到增益buff时加血" buffid="511" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10036" skillmodeid="20009" info="恢复攻击100%血量" healskillratebase="500" healskillratedelta="0" />
+<info skillid="10037" skillmodeid="20001" info="使用技能时回血" buffid="512" bufflvbase="1" bufflvdelta="0" />
+<info skillid="10038" skillmodeid="20009" info="恢复攻击40%血量" healskillratebase="200" healskillratedelta="0" />
+<info skillid="10039" skillmodeid="20035" info="复活，并恢复攻击100%血量" healskillratebase="500" healskillratedelta="0" />
+<info skillid="20001" skillmodeid="40001" info="技能伤害增加100%" skillratebase="400" skillratedelta="100" triggertimes="AttackBefore_A" />
+<info skillid="20002" skillmodeid="40002" info="攻击睡眠的敌人，敌人不会苏醒，且伤害增加100%" skillratebase="400" skillratedelta="100" triggertimes="HurtBefore_A" />
+<info skillid="20003" skillmodeid="20002" info="追加一次攻击100%伤害" skillratebase="400" skillratedelta="100" />
+<info skillid="20004" skillmodeid="40003" info="杀死敌人时，敌人无法复活，且恢复100%敌人血量上限" healskillratebase="200" healskillratedelta="50" triggertimes="KillBefore_A" />
+<info skillid="20005" skillmodeid="20003" info="追加一次血上限5%伤害，伤害不超过攻击1000%" hpskillratebase="50" hpskillratedelta="13" hpskillratelimitbase="1000" hpskillratelimitdelta="260" />
+<info skillid="20006" skillmodeid="40004" info="自身恢复本次伤害100%血量" healskillratebase="50" healskillratedelta="50" triggertimes="HurtAfter_A" />
+<info skillid="20007" skillmodeid="20004" info="对该目标追加一次普攻" ratebase="100" ratedelta="100" />
+<info skillid="20009" skillmodeid="20011" info="附加1回合1级buff减暴击" buffid="417" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20010" skillmodeid="20011" info="附加1回合1级buff减命中" buffid="421" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20011" skillmodeid="20011" info="附加1回合1级buff减造成伤害" buffid="423" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20012" skillmodeid="20011" info="附加1回合1级buff冰冻" buffid="102" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20013" skillmodeid="20005" info="清除目标身上所有增益buff" clearbufftype="1" clearcountbase="4" clearcountdelta="1" />
+<info skillid="20014" skillmodeid="20006" info="目标减少1点萌力" changempbase="0" changempdelta="1" changetype="sub" />
+<info skillid="20016" skillmodeid="20001" info="附加1回合1级buff加防御" buffid="402" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20017" skillmodeid="20001" info="附加1回合1级buff加治疗能力" buffid="412" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20008" skillmodeid="20009" info="给目标恢复攻击100%血量" healskillratebase="200" healskillratedelta="50" />
+<info skillid="20018" skillmodeid="20006" info="目标增加一点萌力" changempbase="0" changempdelta="1" changetype="add" />
+<info skillid="20019" skillmodeid="20007" info="目标释放一次普攻" ratebase="100" ratedelta="100" />
+<info skillid="20020" skillmodeid="20001" info="附加1回合1级buff重生" buffid="211" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20021" skillmodeid="20001" info="附加1回合1级buff守心" buffid="210" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20022" skillmodeid="40001" info="技能伤害增加100%" skillratebase="200" skillratedelta="50" triggertimes="AttackBefore_A" />
+<info skillid="20023" skillmodeid="40002" info="攻击睡眠的敌人，敌人不会苏醒，且伤害增加100%" skillratebase="200" skillratedelta="50" triggertimes="HurtBefore_A" />
+<info skillid="20024" skillmodeid="20002" info="追加一次攻击100%伤害" skillratebase="200" skillratedelta="50" />
+<info skillid="20025" skillmodeid="40003" info="杀死敌人时，敌人无法复活，且恢复100%敌人血量上限" healskillratebase="200" healskillratedelta="50" triggertimes="KillBefore_A" />
+<info skillid="20026" skillmodeid="20003" info="追加一次血上限5%伤害，伤害不超过攻击1000%" hpskillratebase="25" hpskillratedelta="6" hpskillratelimitbase="500" hpskillratelimitdelta="120" />
+<info skillid="20027" skillmodeid="40004" info="自身恢复本次伤害100%血量" healskillratebase="50" healskillratedelta="50" triggertimes="HurtAfter_A" />
+<info skillid="20029" skillmodeid="20011" info="附加1回合1级buff减治疗效果" buffid="426" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20030" skillmodeid="20011" info="附加1回合1级buff减抵抗" buffid="420" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20031" skillmodeid="20011" info="附加1回合1级buff减幸运" buffid="419" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20032" skillmodeid="20011" info="附加1回合1级buff沉默" buffid="106" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20033" skillmodeid="20005" info="清除目标身上所有增益buff" clearbufftype="1" clearcountbase="2" clearcountdelta="1" />
+<info skillid="20034" skillmodeid="20001" info="附加1回合1级buff伤害链接" buffid="203" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20035" skillmodeid="20001" info="附加1回合1级buff加造成伤害" buffid="410" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20036" skillmodeid="20001" info="附加1回合1级buff加治疗效果" buffid="413" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20038" skillmodeid="20001" info="附加1回合1级buff加命中" buffid="408" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20039" skillmodeid="20001" info="附加1回合1级buff加抵抗" buffid="407" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20037" skillmodeid="20009" info="给目标恢复攻击100%血量" healskillratebase="100" healskillratedelta="25" />
+<info skillid="20040" skillmodeid="20005" info="清除目标身上所有控制类buff" clearbuffkind="1" clearcountbase="2" clearcountdelta="1" />
+<info skillid="20041" skillmodeid="20001" info="附加1回合1级buff生命链接" buffid="202" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20042" skillmodeid="40001" info="技能伤害增加100%" skillratebase="80" skillratedelta="20" triggertimes="AttackBefore_A" />
+<info skillid="20043" skillmodeid="40002" info="攻击睡眠的敌人，敌人不会苏醒，且伤害增加100%" skillratebase="80" skillratedelta="20" triggertimes="HurtBefore_A" />
+<info skillid="20044" skillmodeid="20002" info="追加一次攻击100%伤害" skillratebase="80" skillratedelta="20" />
+<info skillid="20045" skillmodeid="40003" info="杀死敌人时，敌人无法复活，且恢复100%敌人血量上限" healskillratebase="200" healskillratedelta="50" triggertimes="KillBefore_A" />
+<info skillid="20046" skillmodeid="20003" info="追加一次血上限5%伤害，伤害不超过攻击1000%" hpskillratebase="10" hpskillratedelta="3" hpskillratelimitbase="200" hpskillratelimitdelta="60" />
+<info skillid="20047" skillmodeid="40004" info="自身恢复本次伤害100%血量" healskillratebase="50" healskillratedelta="50" triggertimes="HurtAfter_A" />
+<info skillid="20049" skillmodeid="20011" info="附加1回合1级buff减闪避" buffid="422" bufflvbase="0" bufflvdelta="1" />
+<info skillid="20050" skillmodeid="20011" info="附加1回合1级buff减攻击" buffid="414" bufflvbase="0" bufflvdelta="1" />
+<info skillid="20051" skillmodeid="20011" info="附加1回合1级buff加受到伤害" buffid="424" bufflvbase="0" bufflvdelta="1" />
+<info skillid="20052" skillmodeid="20011" info="附加1回合1级buff嘲讽" buffid="104" bufflvbase="0" bufflvdelta="1" />
+<info skillid="20053" skillmodeid="20005" info="清除目标身上所有增益buff" clearbufftype="1" clearcountbase="0" clearcountdelta="1" />
+<info skillid="20054" skillmodeid="20008" info="目标减少20%行动条" spdtimeratebase="80" spdtimeratedelta="20" />
+<info skillid="20015" skillmodeid="20001" info="附加1回合1级buff减受到伤害" buffid="411" bufflvbase="0" bufflvdelta="1" />
+<info skillid="20055" skillmodeid="20001" info="附加1回合1级buff加攻击" buffid="401" bufflvbase="0" bufflvdelta="1" />
+<info skillid="20056" skillmodeid="20001" info="附加1回合1级buff加幸运" buffid="406" bufflvbase="0" bufflvdelta="1" />
+<info skillid="20057" skillmodeid="20001" info="附加1回合1级buff加暴击" buffid="404" bufflvbase="0" bufflvdelta="1" />
+<info skillid="20058" skillmodeid="20001" info="附加1回合1级buff加爆伤" buffid="405" bufflvbase="0" bufflvdelta="1" />
+<info skillid="20059" skillmodeid="20009" info="给目标恢复攻击100%血量" healskillratebase="40" healskillratedelta="10" />
+<info skillid="20060" skillmodeid="20005" info="清除目标身上所有伤害类buff" clearbuffkind="3" clearcountbase="0" clearcountdelta="1" />
+<info skillid="20061" skillmodeid="20005" info="清除目标身上所有减益buff" clearbufftype="-1" clearcountbase="0" clearcountdelta="1" />
+<info skillid="20062" skillmodeid="70021" info="给自己附加1回合buff加攻击" buffid="401" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20063" skillmodeid="70021" info="给自己附加1回合buff加防御" buffid="402" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20064" skillmodeid="70021" info="给自己附加1回合buff加暴击" buffid="404" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20065" skillmodeid="70021" info="给自己附加1回合buff加爆伤" buffid="405" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20066" skillmodeid="70021" info="给自己附加1回合buff加幸运" buffid="406" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20067" skillmodeid="70021" info="给自己附加1回合buff加抵抗" buffid="407" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20068" skillmodeid="70021" info="给自己附加1回合buff加命中" buffid="408" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20069" skillmodeid="70021" info="给自己附加1回合buff加闪避" buffid="409" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20070" skillmodeid="70021" info="给自己附加1回合buff加造成伤害" buffid="410" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20071" skillmodeid="70021" info="给自己附加1回合buff减受到伤害" buffid="411" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20072" skillmodeid="70021" info="给自己附加1回合buff加治疗效果" buffid="412" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20073" skillmodeid="70021" info="给自己附加1回合buff加治疗能力" buffid="413" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20074" skillmodeid="70029" info="给自己恢复攻击100%血量" healskillratebase="200" healskillratedelta="50" />
+<info skillid="20075" skillmodeid="70025" info="清除自己身上所有伤害类buff" clearbuffkind="3" clearcountbase="4" clearcountdelta="1" />
+<info skillid="20076" skillmodeid="70026" info="给自己增加1点萌力" changempbase="0" changempdelta="1" changetype="add" />
+<info skillid="20077" skillmodeid="70021" info="给自己附加1回合buff重生" buffid="211" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20078" skillmodeid="70021" info="给自己附加1回合buff守心" buffid="210" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20079" skillmodeid="70021" info="给自己附加1回合buff生命链接" buffid="202" bufflvbase="7" bufflvdelta="2" />
+<info skillid="20080" skillmodeid="70025" info="清除自己身上所有减益buff" clearbufftype="-1" clearcountbase="4" clearcountdelta="1" />
+<info skillid="20081" skillmodeid="40001" info="技能伤害增加100%" skillratebase="200" skillratedelta="50" triggertimes="AttackBefore_A" />
+<info skillid="20082" skillmodeid="20002" info="追加一次攻击100%伤害" skillratebase="200" skillratedelta="50" />
+<info skillid="20083" skillmodeid="20003" info="追加一次血上限5%伤害，伤害不超过攻击1000%" hpskillratebase="25" hpskillratedelta="6" hpskillratelimitbase="500" hpskillratelimitdelta="120" />
+<info skillid="20084" skillmodeid="40004" info="自身恢复本次伤害100%血量" healskillratebase="20" healskillratedelta="20" triggertimes="HurtAfter_A" />
+<info skillid="20085" skillmodeid="20011" info="附加1回合1级buff减治疗效果" buffid="426" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20086" skillmodeid="20011" info="附加1回合1级buff减闪避" buffid="422" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20087" skillmodeid="20011" info="附加1回合1级buff减爆伤" buffid="418" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20088" skillmodeid="20011" info="附加1回合1级buff减攻击" buffid="414" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20089" skillmodeid="20011" info="附加1回合1级buff减幸运" buffid="419" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20090" skillmodeid="20011" info="附加1回合1级buff加受到伤害" buffid="424" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20091" skillmodeid="20011" info="附加1回合1级buff减造成伤害" buffid="423" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20092" skillmodeid="20011" info="附加1回合1级buff减暴击" buffid="417" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20093" skillmodeid="20011" info="附加1回合1级buff减抵抗" buffid="420" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20094" skillmodeid="20011" info="附加1回合1级buff减命中" buffid="421" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20095" skillmodeid="70021" info="给自己附加1回合buff加攻击" buffid="401" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20096" skillmodeid="70021" info="给自己附加1回合buff加防御" buffid="402" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20097" skillmodeid="70021" info="给自己附加1回合buff加暴击" buffid="404" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20098" skillmodeid="70021" info="给自己附加1回合buff加爆伤" buffid="405" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20099" skillmodeid="70021" info="给自己附加1回合buff加幸运" buffid="406" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20100" skillmodeid="70021" info="给自己附加1回合buff加抵抗" buffid="407" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20101" skillmodeid="70021" info="给自己附加1回合buff加命中" buffid="408" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20102" skillmodeid="70021" info="给自己附加1回合buff加闪避" buffid="409" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20103" skillmodeid="70021" info="给自己附加1回合buff加造成伤害" buffid="410" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20104" skillmodeid="70021" info="给自己附加1回合buff减受到伤害" buffid="411" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20105" skillmodeid="70021" info="给自己附加1回合buff加治疗效果" buffid="412" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20106" skillmodeid="70021" info="给自己附加1回合buff加治疗能力" buffid="413" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20107" skillmodeid="70029" info="给自己恢复攻击100%血量" healskillratebase="100" healskillratedelta="25" />
+<info skillid="20108" skillmodeid="30102" info="若目标血比例大于50%，则对目标追加一次攻击100%伤害" skillratebase="400" skillratedelta="100" defaulttarget="giveSingleTarget" conditionbuffid="301" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20109" skillmodeid="30102" info="若目标血比例小于50%，则对目标追加一次攻击100%伤害" skillratebase="400" skillratedelta="100" defaulttarget="giveSingleTarget" conditionbuffid="302" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20116" skillmodeid="30103" info="若目标血比例大于50%，则对目标追加一次血上限5%伤害，伤害不超过攻击1000%" defaulttarget="giveSingleTarget" conditionbuffid="301" hpskillratebase="50" hpskillratedelta="13" hpskillratelimitbase="1000" hpskillratelimitdelta="260" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20117" skillmodeid="30103" info="若目标血比例小于50%，则对目标追加一次血上限5%伤害，伤害不超过攻击1000%" defaulttarget="giveSingleTarget" conditionbuffid="302" hpskillratebase="50" hpskillratedelta="13" hpskillratelimitbase="1000" hpskillratelimitdelta="260" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20124" skillmodeid="30104" info="若目标血比例大于50%，则对目标追加一次普攻" ratebase="100" ratedelta="100" defaulttarget="giveSingleTarget" conditionbuffid="301" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20125" skillmodeid="30104" info="若目标血比例小于50%，则对目标追加一次普攻" ratebase="100" ratedelta="100" defaulttarget="giveSingleTarget" conditionbuffid="302" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20132" skillmodeid="30011" info="对目标附加1回合1级buff减攻击" buffid="414" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20133" skillmodeid="30011" info="对目标附加1回合1级buff减暴击" buffid="417" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20134" skillmodeid="30011" info="对目标附加1回合1级buff减爆伤" buffid="418" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20135" skillmodeid="30011" info="对目标附加1回合1级buff减幸运" buffid="419" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20136" skillmodeid="30011" info="对目标附加1回合1级buff减抵抗" buffid="420" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20137" skillmodeid="30011" info="对目标附加1回合1级buff减闪避" buffid="422" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20138" skillmodeid="30011" info="对目标附加1回合1级buff减造成伤害" buffid="423" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20139" skillmodeid="30011" info="对目标附加1回合1级buff加受到伤害" buffid="424" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20140" skillmodeid="30011" info="对目标附加1回合1级buff减治疗效果" buffid="426" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20141" skillmodeid="30011" info="对目标附加1回合1级buff减命中" buffid="421" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20142" skillmodeid="30011" info="对目标附加1回合1级buff减治疗能力" buffid="425" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" />
+<info skillid="20143" skillmodeid="30111" info="若目标血比例大于50%，则对目标附加1回合1级buff冰冻" buffid="102" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="301" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20144" skillmodeid="30111" info="若目标血比例小于50%，则对目标附加1回合1级buff冰冻" buffid="102" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="304" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20146" skillmodeid="30111" info="若目标血比例大于50%，则对目标附加1回合1级buff沉默" buffid="106" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="302" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20147" skillmodeid="30111" info="若目标血比例小于50%，则对目标附加1回合1级buff沉默" buffid="106" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="304" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20149" skillmodeid="30111" info="若目标血比例大于50%，则对目标附加1回合1级buff嘲讽" buffid="104" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="301" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20150" skillmodeid="30111" info="若目标血比例小于50%，则对目标附加1回合1级buff嘲讽" buffid="104" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="302" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20153" skillmodeid="30105" info="若目标血比例大于50%，则对目标清除所有增益buff" clearbufftype="1" clearcountbase="2" clearcountdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="301" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20154" skillmodeid="30105" info="若目标血比例小于50%，则对目标清除所有增益buff" clearbufftype="1" clearcountbase="2" clearcountdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="302" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20161" skillmodeid="30106" info="若目标血比例大于50%，则对目标减少1点萌力" changempbase="0" changempdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="301" changetype="sub" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20162" skillmodeid="30106" info="若目标血比例小于50%，则对目标减少1点萌力" changempbase="0" changempdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="302" changetype="sub" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20169" skillmodeid="30107" info="若目标血比例大于50%，则对目标减少20%行动条" spdtimeratebase="80" spdtimeratedelta="20" defaulttarget="giveSingleTarget" conditionbuffid="301" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20170" skillmodeid="30107" info="若目标血比例小于50%，则对目标减少20%行动条" spdtimeratebase="80" spdtimeratedelta="20" defaulttarget="giveSingleTarget" conditionbuffid="302" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20177" skillmodeid="30111" info="若目标血比例大于50%，则对目标附加1回合1级buff伤害链接" buffid="203" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="301" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20178" skillmodeid="30111" info="若目标血比例小于50%，则对目标附加1回合1级buff伤害链接" buffid="203" bufflvbase="3" bufflvdelta="1" defaulttarget="giveSingleTarget" conditionbuffid="302" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20185" skillmodeid="30001" info="对目标附加1回合1级buff加攻击" buffid="401" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyMostAtkTarget" />
+<info skillid="20186" skillmodeid="30001" info="对目标附加1回合1级buff加防御" buffid="402" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyLostHpTarget" />
+<info skillid="20187" skillmodeid="30001" info="对目标附加1回合1级buff加暴击" buffid="404" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyMostAtkTarget" />
+<info skillid="20188" skillmodeid="30001" info="对目标附加1回合1级buff加爆伤" buffid="405" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyMostAtkTarget" />
+<info skillid="20189" skillmodeid="30001" info="对目标附加1回合1级buff加幸运" buffid="406" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyMostAtkTarget" />
+<info skillid="20190" skillmodeid="30001" info="对目标附加1回合1级buff加抵抗" buffid="407" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyLostHpTarget" />
+<info skillid="20191" skillmodeid="30001" info="对目标附加1回合1级buff加命中" buffid="408" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyMostAtkTarget" />
+<info skillid="20192" skillmodeid="30001" info="对目标附加1回合1级buff加造成伤害" buffid="410" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyMostAtkTarget" />
+<info skillid="20193" skillmodeid="30001" info="对目标附加1回合1级buff减受到伤害" buffid="411" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyLostHpTarget" />
+<info skillid="20194" skillmodeid="30001" info="对目标附加1回合1级buff加治疗效果" buffid="413" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyLostHpTarget" />
+<info skillid="20195" skillmodeid="30001" info="对目标附加1回合1级buff加闪避" buffid="409" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyLostHpTarget" />
+<info skillid="20196" skillmodeid="30108" info="若目标血比例大于50%，则对目标恢复攻击100%血量" healskillratebase="200" healskillratedelta="50" defaulttarget="getMyLostHpTarget" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20197" skillmodeid="30108" info="若目标血比例小于50%，则对目标恢复攻击100%血量" healskillratebase="200" healskillratedelta="50" defaulttarget="getMyLostHpTarget" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20204" skillmodeid="30109" info="若目标血比例大于50%，则让目标释放一次普攻" ratebase="100" ratedelta="100" defaulttarget="getMyMostAtkTarget" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20205" skillmodeid="30109" info="若目标血比例小于50%，则让目标释放一次普攻" ratebase="100" ratedelta="100" defaulttarget="getMyMostAtkTarget" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20212" skillmodeid="30105" info="若目标血比例大于50%，则对目标清除所有控制类buff" clearbuffkind="1" clearcountbase="2" clearcountdelta="1" defaulttarget="getMyLostHpTarget" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20213" skillmodeid="30105" info="若目标血比例小于50%，则对目标清除所有控制类buff" clearbuffkind="1" clearcountbase="2" clearcountdelta="1" defaulttarget="getMyLostHpTarget" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20220" skillmodeid="30105" info="若目标血比例大于50%，则对目标清除所有伤害类buff" clearbuffkind="3" clearcountbase="2" clearcountdelta="1" defaulttarget="getMyLostHpTarget" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20221" skillmodeid="30105" info="若目标血比例小于50%，则对目标清除所有伤害类buff" clearbuffkind="3" clearcountbase="2" clearcountdelta="1" defaulttarget="getMyLostHpTarget" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20228" skillmodeid="30106" info="若目标血比例大于50%，则对目标增加1点萌力" changempbase="0" changempdelta="1" defaulttarget="getMyLostMpTarget" conditionbuffid="206" changetype="add" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20229" skillmodeid="30106" info="若目标血比例小于50%，则对目标增加1点萌力" changempbase="0" changempdelta="1" defaulttarget="getMyLostMpTarget" conditionbuffid="205" changetype="add" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20237" skillmodeid="30101" info="若目标血比例小于50%，则对目标附加1回合1级buff重生" buffid="211" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyLostHpTarget" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20245" skillmodeid="30101" info="若目标血比例小于50%，则对目标附加1回合1级buff守心" buffid="210" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyLostHpTarget" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20252" skillmodeid="30101" info="若目标血比例大于50%，则对目标附加1回合1级buff生命链接" buffid="202" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyLostHpTarget" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20253" skillmodeid="30101" info="若目标血比例小于50%，则对目标附加1回合1级buff生命链接" buffid="202" bufflvbase="3" bufflvdelta="1" defaulttarget="getMyLostHpTarget" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20260" skillmodeid="30105" info="若目标血比例大于50%，则对目标清除所有减益buff" clearbufftype="-1" clearcountbase="2" clearcountdelta="1" defaulttarget="getMyLostHpTarget" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20261" skillmodeid="30105" info="若目标血比例小于50%，则对目标清除所有减益buff" clearbufftype="-1" clearcountbase="2" clearcountdelta="1" defaulttarget="getMyLostHpTarget" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20268" skillmodeid="31001" info="对自己附加1回合1级buff加攻击" buffid="401" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20269" skillmodeid="31001" info="对自己附加1回合1级buff加防御" buffid="402" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20270" skillmodeid="31001" info="对自己附加1回合1级buff加暴击" buffid="404" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20271" skillmodeid="31001" info="对自己附加1回合1级buff加爆伤" buffid="405" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20272" skillmodeid="31001" info="对自己附加1回合1级buff加幸运" buffid="406" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20273" skillmodeid="31001" info="对自己附加1回合1级buff加抵抗" buffid="407" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20274" skillmodeid="31001" info="对自己附加1回合1级buff加命中" buffid="408" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20275" skillmodeid="31001" info="对自己附加1回合1级buff加造成伤害" buffid="410" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20276" skillmodeid="31001" info="对自己附加1回合1级buff减受到伤害" buffid="411" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20277" skillmodeid="31001" info="对自己附加1回合1级buff加治疗效果" buffid="413" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20278" skillmodeid="31001" info="对自己附加1回合1级buff加闪避" buffid="409" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20279" skillmodeid="31001" info="对自己附加1回合1级buff加治疗能力" buffid="412" bufflvbase="3" bufflvdelta="1" />
+<info skillid="20280" skillmodeid="31108" info="若自己血比例大于50%，则对目标恢复攻击100%血量" healskillratebase="200" healskillratedelta="50" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20281" skillmodeid="31108" info="若自己血比例小于50%，则对目标恢复攻击100%血量" healskillratebase="200" healskillratedelta="50" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20288" skillmodeid="31105" info="若自己血比例大于50%，则对目标清除所有控制类buff" clearbuffkind="1" clearcountbase="2" clearcountdelta="1" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20289" skillmodeid="31105" info="若自己血比例小于50%，则对目标清除所有控制类buff" clearbuffkind="1" clearcountbase="2" clearcountdelta="1" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20296" skillmodeid="31105" info="若自己血比例大于50%，则对目标清除所有伤害类buff" clearbuffkind="3" clearcountbase="2" clearcountdelta="1" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20297" skillmodeid="31105" info="若自己血比例小于50%，则对目标清除所有伤害类buff" clearbuffkind="3" clearcountbase="2" clearcountdelta="1" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20304" skillmodeid="31106" info="若自己血比例大于50%，则对目标增加1点萌力" changempbase="0" changempdelta="1" conditionbuffid="206" changetype="add" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20305" skillmodeid="31106" info="若自己血比例小于50%，则对目标增加1点萌力" changempbase="0" changempdelta="1" conditionbuffid="205" changetype="add" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20313" skillmodeid="31101" info="若自己血比例小于50%，则对目标附加1回合1级buff重生" buffid="211" bufflvbase="3" bufflvdelta="1" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20321" skillmodeid="31101" info="若自己血比例小于50%，则对目标附加1回合1级buff守心" buffid="210" bufflvbase="3" bufflvdelta="1" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20328" skillmodeid="31101" info="若自己血比例大于50%，则对目标附加1回合1级buff生命链接" buffid="202" bufflvbase="3" bufflvdelta="1" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20329" skillmodeid="31101" info="若自己血比例小于50%，则对目标附加1回合1级buff生命链接" buffid="202" bufflvbase="3" bufflvdelta="1" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20336" skillmodeid="31105" info="若自己血比例大于50%，则对目标清除所有减益buff" clearbufftype="-1" clearcountbase="2" clearcountdelta="1" conditionbuffid="206" hpratecondition="upper" hprateconditionvalue="500" />
+<info skillid="20337" skillmodeid="31105" info="若自己血比例小于50%，则对目标清除所有减益buff" clearbufftype="-1" clearcountbase="2" clearcountdelta="1" conditionbuffid="205" hpratecondition="below" hprateconditionvalue="500" />
+<info skillid="20344" skillmodeid="50001" info="永久增加己方人数*10%攻击" conditionattr="myherocount" attr="atkrate" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20345" skillmodeid="50001" info="永久增加己方人数*10%防御" conditionattr="myherocount" attr="defrate" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20346" skillmodeid="50001" info="永久增加己方人数*10%速度" conditionattr="myherocount" attr="spdrate" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20347" skillmodeid="50001" info="永久增加己方人数*10%幸运" conditionattr="myherocount" attr="bfh" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20348" skillmodeid="50001" info="永久增加己方人数*10%抵抗" conditionattr="myherocount" attr="bfa" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20349" skillmodeid="50001" info="永久增加死亡友军*10%攻击" conditionattr="deadmyherocount" attr="atkrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20350" skillmodeid="50001" info="永久增加死亡友军*10%防御" conditionattr="deadmyherocount" attr="defrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20351" skillmodeid="50001" info="永久增加死亡友军*10%速度" conditionattr="deadmyherocount" attr="spdrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20352" skillmodeid="50001" info="永久增加死亡友军*10%幸运" conditionattr="deadmyherocount" attr="bfh" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20353" skillmodeid="50001" info="永久增加死亡友军*10%抵抗" conditionattr="deadmyherocount" attr="bfa" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20354" skillmodeid="50001" info="永久增加血比例*10%攻击" conditionattr="hprate" attr="atkrate" attrvaluebase="0" attrvaluedelta="1" />
+<info skillid="20355" skillmodeid="50001" info="永久增加血比例*10%防御" conditionattr="hprate" attr="defrate" attrvaluebase="0" attrvaluedelta="1" />
+<info skillid="20356" skillmodeid="50001" info="永久增加血比例*10%速度" conditionattr="hprate" attr="spdrate" attrvaluebase="0" attrvaluedelta="1" />
+<info skillid="20357" skillmodeid="50001" info="永久增加血比例*10%幸运" conditionattr="hprate" attr="bfh" attrvaluebase="0" attrvaluedelta="1" />
+<info skillid="20358" skillmodeid="50001" info="永久增加血比例*10%抵抗" conditionattr="hprate" attr="bfa" attrvaluebase="0" attrvaluedelta="1" />
+<info skillid="20359" skillmodeid="50001" info="永久增加失血比例*10%攻击" conditionattr="losthprate" attr="atkrate" attrvaluebase="0" attrvaluedelta="5" />
+<info skillid="20360" skillmodeid="50001" info="永久增加失血比例*10%防御" conditionattr="losthprate" attr="defrate" attrvaluebase="0" attrvaluedelta="5" />
+<info skillid="20361" skillmodeid="50001" info="永久增加失血比例*10%速度" conditionattr="losthprate" attr="spdrate" attrvaluebase="0" attrvaluedelta="5" />
+<info skillid="20362" skillmodeid="50001" info="永久增加失血比例*10%幸运" conditionattr="losthprate" attr="bfh" attrvaluebase="0" attrvaluedelta="5" />
+<info skillid="20363" skillmodeid="50001" info="永久增加失血比例*10%抵抗" conditionattr="losthprate" attr="bfa" attrvaluebase="0" attrvaluedelta="5" />
+<info skillid="20364" skillmodeid="50001" info="永久增加萌力*10%攻击" conditionattr="mp" attr="atkrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20365" skillmodeid="50001" info="永久增加萌力*10%防御" conditionattr="mp" attr="defrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20366" skillmodeid="50001" info="永久增加萌力*10%速度" conditionattr="mp" attr="spdrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20367" skillmodeid="50001" info="永久增加萌力*10%幸运" conditionattr="mp" attr="bfh" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20368" skillmodeid="50001" info="永久增加萌力*10%抵抗" conditionattr="mp" attr="bfa" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20369" skillmodeid="50001" info="永久增加增益状态个数*10%攻击" conditionattr="buffcount" attr="atkrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20370" skillmodeid="50001" info="永久增加增益状态个数*10%防御" conditionattr="buffcount" attr="defrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20371" skillmodeid="50001" info="永久增加增益状态个数*10%速度" conditionattr="buffcount" attr="spdrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20372" skillmodeid="50001" info="永久增加增益状态个数*10%幸运" conditionattr="buffcount" attr="bfh" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20373" skillmodeid="50001" info="永久增加增益状态个数*10%抵抗" conditionattr="buffcount" attr="bfa" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20374" skillmodeid="50001" info="永久增加减益状态个数*10%攻击" conditionattr="debuffcount" attr="atkrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20375" skillmodeid="50001" info="永久增加减益状态个数*10%防御" conditionattr="debuffcount" attr="defrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20376" skillmodeid="50001" info="永久增加减益状态个数*10%速度" conditionattr="debuffcount" attr="spdrate" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20377" skillmodeid="50001" info="永久增加减益状态个数*10%幸运" conditionattr="debuffcount" attr="bfh" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20378" skillmodeid="50001" info="永久增加减益状态个数*10%抵抗" conditionattr="debuffcount" attr="bfa" attrvaluebase="80" attrvaluedelta="20" />
+<info skillid="20379" skillmodeid="50002" info="己方所有人增加10%攻击" attr="atkrate" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20380" skillmodeid="50002" info="己方所有人增加10%防御" attr="defrate" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20381" skillmodeid="50002" info="己方所有人增加10%速度" attr="spdrate" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20382" skillmodeid="50002" info="己方所有人增加10%幸运" attr="bfh" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20383" skillmodeid="50002" info="己方所有人增加10%抵抗" attr="bfa" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20384" skillmodeid="50003" info="敌方所有人减少10%攻击" attr="atkrate" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20385" skillmodeid="50003" info="敌方所有人减少10%速度" attr="spdrate" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20386" skillmodeid="50003" info="敌方所有人减少10%幸运" attr="bfh" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="20387" skillmodeid="50003" info="敌方所有人减少10%抵抗" attr="bfa" attrvaluebase="40" attrvaluedelta="10" />
+<info skillid="30001" skillmodeid="21001" info="加速" buffid="403" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30002" skillmodeid="21001" info="庇佑" buffid="204" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30003" skillmodeid="21001" info="圣盾" buffid="209" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30004" skillmodeid="21001" info="锋锐" buffid="207" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30005" skillmodeid="21001" info="冰甲" buffid="205" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30006" skillmodeid="21001" info="涂毒" buffid="208" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30007" skillmodeid="21001" info="回血" buffid="213" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30008" skillmodeid="21001" info="火甲" buffid="206" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30009" skillmodeid="21001" info="反伤" buffid="201" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30010" skillmodeid="21012" info="加盾" armorskillratebase="50" armorskillratedelta="50" />
+<info skillid="30011" skillmodeid="21011" info="减速" buffid="416" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30012" skillmodeid="21011" info="混乱" buffid="105" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30013" skillmodeid="21011" info="焚心" buffid="212" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30014" skillmodeid="21011" info="割伤" buffid="303" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30015" skillmodeid="21011" info="冻伤" buffid="301" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30016" skillmodeid="21011" info="毒伤" buffid="304" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30017" skillmodeid="21011" info="睡眠" buffid="103" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30018" skillmodeid="21011" info="灼伤" buffid="302" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30019" skillmodeid="21011" info="眩晕" buffid="101" bufflvbase="0" bufflvdelta="1" />
+<info skillid="30020" skillmodeid="21013" info="破盾" dearmorskillratebase="120" dearmorskillratedelta="30" />
+<info skillid="40001" skillmodeid="60002" info="敌人回合开始时，对敌人" triggertimes="RoundStart" conditionateam="0" getaorb="1" rate="200" triggermaxcount="1" />
+<info skillid="40002" skillmodeid="60001" info="杀死敌军时，对敌人" triggertimes="KillBefore_A" conditionateam="1" conditionbteam="0" getaorb="0" rate="1000" triggermaxcount="10" />
+<info skillid="40003" skillmodeid="60002" info="回合开始时，对敌人" triggertimes="RoundStart_A" conditionateam="1" getaorb="0" rate="1000" triggermaxcount="1" />
+<info skillid="40004" skillmodeid="60002" info="回合结束时，对敌人" triggertimes="RoundEnd_A" conditionateam="1" getaorb="0" rate="1000" triggermaxcount="1" />
+<info skillid="40005" skillmodeid="60002" info="敌人死亡时，对敌人" triggertimes="DeadAfter" conditionateam="0" getaorb="0" rate="1000" triggermaxcount="10" />
+<info skillid="40006" skillmodeid="60001" info="友军被敌军杀死时，对敌人" triggertimes="KillBefore" conditionateam="0" conditionbteam="2" getaorb="1" rate="1000" triggermaxcount="10" />
+<info skillid="40007" skillmodeid="60001" info="友军攻击时，对敌人" triggertimes="HurtAfter" conditionateam="2" conditionbteam="0" getaorb="2" rate="250" triggermaxcount="1" />
+<info skillid="40008" skillmodeid="60001" info="被敌军杀死时，对敌人" triggertimes="KillBefore_B" conditionateam="0" conditionbteam="1" getaorb="1" rate="1000" triggermaxcount="1" />
+<info skillid="40009" skillmodeid="60005" info="战斗开始时，对友军" triggertimes="BattleStart" getaorb="0" rate="1000" triggermaxcount="1" />
+<info skillid="40010" skillmodeid="60002" info="友军回合开始时，对友军" triggertimes="RoundStart" conditionateam="2" getaorb="1" rate="250" triggermaxcount="1" />
+<info skillid="40011" skillmodeid="60001" info="受到攻击时，对友军" triggertimes="HurtAfter_B" conditionateam="0" conditionbteam="1" getaorb="0" rate="300" triggermaxcount="1" />
+<info skillid="40012" skillmodeid="60004" info="受到减益buff时，对友军" triggertimes="AddBuffAfter_B" conditionateam="0" conditionbteam="1" getaorb="0" rate="300" triggermaxcount="1" />
+<info skillid="40013" skillmodeid="60002" info="死亡时，对友军" triggertimes="DeadAfter_A" conditionateam="1" getaorb="0" rate="1000" triggermaxcount="1" />
+<info skillid="40014" skillmodeid="60002" info="敌人回合结束时，对敌人" triggertimes="RoundEnd" conditionateam="0" getaorb="1" rate="200" triggermaxcount="1" />
+<info skillid="40015" skillmodeid="60003" info="敌人受到增益buff时，对敌人" triggertimes="AddBuffAfter" conditionateam="0" conditionbteam="0" getaorb="2" rate="200" triggermaxcount="1" />
+<info skillid="40016" skillmodeid="60002" info="友军回合结束时，对友军" triggertimes="RoundEnd" conditionateam="2" getaorb="1" rate="250" triggermaxcount="1" />
+<info skillid="40017" skillmodeid="60002" info="友军回合开始时，对敌人" triggertimes="RoundStart" conditionateam="2" getaorb="0" rate="250" triggermaxcount="1" />
+<info skillid="40018" skillmodeid="60006" info="友军普攻时，对敌人" triggertimes="HurtAfter" conditionateam="2" conditionbteam="0" getaorb="2" rate="250" triggermaxcount="1" />
+<info skillid="40019" skillmodeid="60001" info="友军受到攻击时，对敌人" triggertimes="HurtAfter" conditionateam="0" conditionbteam="2" getaorb="1" rate="250" triggermaxcount="1" />
+<info skillid="40020" skillmodeid="60002" info="友军回合结束时，对敌人" triggertimes="RoundEnd" conditionateam="2" getaorb="0" rate="250" triggermaxcount="1" />
+<info skillid="40021" skillmodeid="60004" info="受到减益buff时，对敌人" triggertimes="AddBuffAfter_B" conditionateam="0" conditionbteam="1" getaorb="1" rate="300" triggermaxcount="1" />
+<info skillid="40022" skillmodeid="60001" info="友军受到攻击时，对友军" triggertimes="HurtAfter" conditionateam="0" conditionbteam="2" getaorb="2" rate="250" triggermaxcount="1" />
+<info skillid="40023" skillmodeid="60004" info="友军受到减益buff时，对友军" triggertimes="AddBuffAfter" conditionateam="0" conditionbteam="2" getaorb="2" rate="250" triggermaxcount="1" />
+<info skillid="40024" skillmodeid="60002" info="友军死亡时，对友军" triggertimes="DeadAfter" conditionateam="2" getaorb="0" rate="1000" triggermaxcount="10" />
+<info skillid="40025" skillmodeid="60003" info="受到增益buff时，对敌人" triggertimes="AddBuffAfter_B" conditionateam="1" conditionbteam="1" getaorb="0" rate="200" triggermaxcount="1" />
+<info skillid="40026" skillmodeid="60002" info="回合结束时，对友军" triggertimes="RoundEnd_A" conditionateam="1" getaorb="0" rate="1000" triggermaxcount="1" />
+<info skillid="40027" skillmodeid="60002" info="回合开始时，对友军" triggertimes="RoundStart_A" conditionateam="1" getaorb="0" rate="1000" triggermaxcount="1" />
+<info skillid="40028" skillmodeid="60004" info="敌人受到减益buff时，对敌人" triggertimes="AddBuffAfter" conditionateam="1" conditionbteam="0" getaorb="2" rate="200" triggermaxcount="1" />
+<info skillid="40029" skillmodeid="60004" info="友军受到减益buff时，对敌人" triggertimes="AddBuffAfter" conditionateam="0" conditionbteam="2" getaorb="1" rate="250" triggermaxcount="1" />
+<info skillid="40030" skillmodeid="60001" info="受到攻击时，对敌人" triggertimes="HurtAfter_B" conditionateam="0" conditionbteam="1" getaorb="1" rate="300" triggermaxcount="1" />
+<info skillid="40031" skillmodeid="60001" info="友军攻击时，对友军" triggertimes="HurtAfter" conditionateam="2" conditionbteam="0" getaorb="1" rate="250" triggermaxcount="1" />
+<info skillid="50001" skillmodeid="10001" info="对敌方单体" target="giveSingleTarget" rangeicon="101" />
+<info skillid="50002" skillmodeid="10001" info="对随机1体" target="giveRandomTarget" findTargetNum="1" rangeicon="110" />
+<info skillid="50003" skillmodeid="10001" info="对所有受到暗影注视的敌人" target="giveHasBuffTarget" stateMode="501" rangeicon="112" />
+<info skillid="50004" skillmodeid="10001" info="对敌方全体" target="giveAllTarget" rangeicon="109" />
+<info skillid="50005" skillmodeid="10001" info="对目标所在列的敌人" target="giveColLineTarget" rangeicon="103" />
+<info skillid="50006" skillmodeid="10001" info="随机1+死亡友军数量体" target="giveRandomMyDeadAndOneTarget" rangeicon="112" />
+<info skillid="50007" skillmodeid="10001" info="对目标所在行" target="giveRowLineTarget" rangeicon="102" />
+<info skillid="50008" skillmodeid="10001" info="让己方攻击最高的英雄" target="getMyMostAtkTarget" rangeicon="210" />
+<info skillid="50009" skillmodeid="10001" info="给自己所在行" target="giveMyRowLineTarget" rangeicon="202" />
+<info skillid="50010" skillmodeid="10001" info="给自己所在行列" target="giveMyRowColTarget" rangeicon="207" />
+<info skillid="50011" skillmodeid="10001" info="给己方全体" target="giveMyAllTarget" rangeicon="209" />
+<info skillid="50012" skillmodeid="10001" info="给己方萌力最少的英雄" target="getMyLostMpTarget" rangeicon="210" />
+<info skillid="50013" skillmodeid="10001" info="给己方生命最少的英雄" target="getMyLostHpTarget" rangeicon="210" />
+<info skillid="50014" skillmodeid="10001" info="给己方最前行的英雄" target="giveMyFirstLine" rangeicon="206" />
+<info skillid="50015" skillmodeid="10001" info="对敌方攻击最高的英雄" target="getMostAtkTarget" rangeicon="110" />
+<info skillid="50016" skillmodeid="10001" info="对敌方所在行列" target="giveRowColTarget" rangeicon="104" />
+<info skillid="50017" skillmodeid="10001" info="使敌方萌力最多的英雄" target="getMostMpTarget" rangeicon="110" />
+<info skillid="50018" skillmodeid="10001" info="给己方所在列的英雄" target="giveMyColLineTarget" rangeicon="203" />
+<info skillid="50019" skillmodeid="10001" info="己方随机一个死亡的英雄" target="giveMyRandomDeadTarget" rangeicon="210" />
+<info skillid="60001" skillmodeid="70001" info="消耗1点萌力" changempbase="1" changempdelta="0" />
+<info skillid="60002" skillmodeid="70001" info="消耗2点萌力" changempbase="2" changempdelta="0" />
+<info skillid="60003" skillmodeid="70001" info="消耗3点萌力" changempbase="3" changempdelta="0" />
+<info skillid="60004" skillmodeid="70001" info="消耗4点萌力" changempbase="4" changempdelta="0" />
+<info skillid="90001" skillmodeid="79001" info="持续值项伤害buff结算(回合开始执行)" />
+<info skillid="90002" skillmodeid="79002" info="持续比例伤害buff结算(回合开始执行)" />
+<info skillid="90003" skillmodeid="79003" info="持续值项医疗buff结算(回合开始执行)" />
+<info skillid="90004" skillmodeid="79004" info="持续比例医疗buff结算(回合开始执行)" />
+<info skillid="90005" skillmodeid="79005" info="重生buff结算(回合结束执行)" />
+<info skillid="90006" skillmodeid="79006" info="治疗叠加(使用技能时恢复血上限的10%血量)(技能选择时)" healskillratebase="100" healskillratedelta="0" />
+<info skillid="91001" skillmodeid="79101" info="buff溅射伤害结算(反伤,生命链,伤害链)(攻击伤害结算是传值执行)" />
+<info skillid="91002" skillmodeid="79102" info="火甲,冰甲,锋锐,涂毒结算(对目标幸运判定buff施加)(HurtBefore_B)" />
+<info skillid="91003" skillmodeid="79103" info="灵巧反噬" />
+<info skillid="91004" skillmodeid="79104" info="治疗贯通(受到增益buff时恢复血上限的5%血量)(AddBuffAfter_B)" healskillratebase="50" healskillratedelta="0" />
+<info skillid="91005" skillmodeid="79105" info="创伤护盾(受到普攻时30%概率将伤害转化为护盾)(HurtAfter_B)" />
+<info skillid="91006" skillmodeid="79106" info="创伤提速(受到攻击时30%概率增加本次伤血比例相应的行动条)(HurtAfter_B)" />
+</root>

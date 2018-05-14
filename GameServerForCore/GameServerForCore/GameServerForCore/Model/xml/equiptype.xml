@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<info id="101" equiptype="1" mainattr="atk,1000" viceattr="atk|def|hp|atkrate|defrate|hprate|crt|crd|bfh|bfa" awakenattr="atkrate,200|defrate,200|hprate,200|crt,80|crd,80|bfh,80|bfa,80|suit,80" />
+<info id="102" equiptype="2" mainattr="def,1000" viceattr="atk|def|hp|atkrate|defrate|hprate|crt|crd|bfh|bfa" awakenattr="atkrate,200|defrate,200|hprate,200|crt,80|crd,80|bfh,80|bfa,80|suit,80" />
+<info id="103" equiptype="3" mainattr="hp,1000" viceattr="atk|def|hp|atkrate|defrate|hprate|crt|crd|bfh|bfa" awakenattr="atkrate,200|defrate,200|hprate,200|crt,80|crd,80|bfh,80|bfa,80|suit,80" />
+<info id="104" equiptype="4" mainattr="atkrate,300|defrate,300|hprate,300|spd,100" viceattr="atk|def|hp|atkrate|defrate|hprate|spd|crt|crd|bfh|bfa|hit|avd" awakenattr="atkrate,190|defrate,190|hprate,190|spd,50|crt,50|crd,50|bfh,50|bfa,50|hit,50|avd,40|att,40|suit,80" />
+<info id="105" equiptype="5" mainattr="atkrate,300|defrate,300|hprate,300|bfh,50|bfa,50" viceattr="atk|def|hp|atkrate|defrate|hprate|spd|crt|crd|bfh|bfa|hit|avd" awakenattr="atkrate,190|defrate,190|hprate,190|spd,50|crt,50|crd,50|bfh,50|bfa,50|hit,50|avd,40|att,40|suit,80" />
+<info id="106" equiptype="6" mainattr="atkrate,300|defrate,300|hprate,300|crt,50|crd,50" viceattr="atk|def|hp|atkrate|defrate|hprate|spd|crt|crd|bfh|bfa|hit|avd" awakenattr="atkrate,190|defrate,190|hprate,190|spd,50|crt,50|crd,50|bfh,50|bfa,50|hit,50|avd,40|att,40|suit,80" />
+</root>

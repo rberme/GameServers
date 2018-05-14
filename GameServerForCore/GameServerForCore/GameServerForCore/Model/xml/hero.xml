@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<info id="10000" name="标准人偶" hpbase="2800" atkbase="420" defbase="420" hpdelta="532" atkdelta="21" defdelta="21" spd="1070" crt="0" crd="1400" bfh="0" bfa="0" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10001" name="加文" hpbase="2400" atkbase="600" defbase="360" hpdelta="456" atkdelta="30" defdelta="18" spd="1010" crt="200" crd="1400" bfh="0" bfa="0" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10002" name="莫妮卡" hpbase="3600" atkbase="540" defbase="300" hpdelta="684" atkdelta="27" defdelta="15" spd="950" crt="0" crd="1600" bfh="0" bfa="0" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10003" name="千早" hpbase="2400" atkbase="540" defbase="420" hpdelta="456" atkdelta="27" defdelta="21" spd="1010" crt="50" crd="1450" bfh="0" bfa="50" att="0" hit="1000" avd="50" canuse="True" initquality="1" />
+<info id="10004" name="特蕾西" hpbase="2000" atkbase="600" defbase="360" hpdelta="380" atkdelta="30" defdelta="18" spd="1070" crt="50" crd="1550" bfh="0" bfa="0" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10005" name="魁斗" hpbase="2800" atkbase="480" defbase="360" hpdelta="532" atkdelta="24" defdelta="18" spd="1070" crt="50" crd="1450" bfh="0" bfa="100" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10006" name="博格" hpbase="2800" atkbase="540" defbase="420" hpdelta="532" atkdelta="27" defdelta="21" spd="950" crt="100" crd="1400" bfh="0" bfa="0" att="0" hit="1000" avd="100" canuse="True" initquality="1" />
+<info id="10007" name="风见" hpbase="2400" atkbase="540" defbase="300" hpdelta="456" atkdelta="27" defdelta="15" spd="1130" crt="150" crd="1450" bfh="0" bfa="0" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10008" name="格丽斯" hpbase="2400" atkbase="600" defbase="300" hpdelta="456" atkdelta="30" defdelta="15" spd="1070" crt="100" crd="1500" bfh="0" bfa="0" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10009" name="琴乃" hpbase="3200" atkbase="300" defbase="300" hpdelta="608" atkdelta="15" defdelta="15" spd="1250" crt="0" crd="1400" bfh="0" bfa="100" att="0" hit="1000" avd="100" canuse="True" initquality="1" />
+<info id="10010" name="尼尔" hpbase="3600" atkbase="300" defbase="540" hpdelta="684" atkdelta="15" defdelta="27" spd="950" crt="0" crd="1400" bfh="0" bfa="50" att="0" hit="1000" avd="150" canuse="True" initquality="1" />
+<info id="10011" name="塔玛拉" hpbase="3200" atkbase="300" defbase="420" hpdelta="608" atkdelta="15" defdelta="21" spd="1130" crt="0" crd="1400" bfh="0" bfa="150" att="0" hit="1000" avd="50" canuse="True" initquality="1" />
+<info id="10012" name="卡萝" hpbase="3200" atkbase="300" defbase="600" hpdelta="608" atkdelta="15" defdelta="30" spd="950" crt="0" crd="1400" bfh="0" bfa="200" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10013" name="雪羽" hpbase="3600" atkbase="300" defbase="540" hpdelta="684" atkdelta="15" defdelta="27" spd="950" crt="0" crd="1400" bfh="0" bfa="100" att="0" hit="1000" avd="100" canuse="True" initquality="1" />
+<info id="10014" name="杰" hpbase="3200" atkbase="300" defbase="540" hpdelta="608" atkdelta="15" defdelta="27" spd="1010" crt="0" crd="1400" bfh="0" bfa="0" att="0" hit="1000" avd="200" canuse="True" initquality="1" />
+<info id="10015" name="修" hpbase="2800" atkbase="480" defbase="360" hpdelta="532" atkdelta="24" defdelta="18" spd="1070" crt="0" crd="1400" bfh="200" bfa="0" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10016" name="艾尔萨" hpbase="2400" atkbase="480" defbase="360" hpdelta="456" atkdelta="24" defdelta="18" spd="1130" crt="0" crd="1400" bfh="200" bfa="0" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10017" name="堇" hpbase="3200" atkbase="360" defbase="420" hpdelta="608" atkdelta="18" defdelta="21" spd="1070" crt="0" crd="1400" bfh="200" bfa="0" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10018" name="芮雅" hpbase="2800" atkbase="540" defbase="420" hpdelta="532" atkdelta="27" defdelta="21" spd="950" crt="0" crd="1400" bfh="0" bfa="200" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10019" name="弗丽嘉" hpbase="3200" atkbase="540" defbase="360" hpdelta="608" atkdelta="27" defdelta="18" spd="950" crt="0" crd="1400" bfh="0" bfa="200" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+<info id="10020" name="阿澄" hpbase="3200" atkbase="600" defbase="300" hpdelta="608" atkdelta="30" defdelta="15" spd="950" crt="0" crd="1400" bfh="0" bfa="200" att="0" hit="1000" avd="0" canuse="True" initquality="1" />
+</root>

@@ -1,0 +1,41 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <AssemblyName>GameServerForCore</AssemblyName>
+    <RootNamespace>GameServerForCore</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Script\BaseCacheFrame\**" />
+    <Compile Remove="Script\BaseFrame\**" />
+    <Compile Remove="Script\BaseNetFrame\**" />
+    <Compile Remove="Script\BaseSqlFrame\**" />
+    <Compile Remove="Script\LogicNetFrame\**" />
+    <Compile Remove="Script\UtilsFrame\**" />
+    <EmbeddedResource Remove="Script\BaseCacheFrame\**" />
+    <EmbeddedResource Remove="Script\BaseFrame\**" />
+    <EmbeddedResource Remove="Script\BaseNetFrame\**" />
+    <EmbeddedResource Remove="Script\BaseSqlFrame\**" />
+    <EmbeddedResource Remove="Script\LogicNetFrame\**" />
+    <EmbeddedResource Remove="Script\UtilsFrame\**" />
+    <None Remove="Script\BaseCacheFrame\**" />
+    <None Remove="Script\BaseFrame\**" />
+    <None Remove="Script\BaseNetFrame\**" />
+    <None Remove="Script\BaseSqlFrame\**" />
+    <None Remove="Script\LogicNetFrame\**" />
+    <None Remove="Script\UtilsFrame\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Model\xml\" />
+    <Folder Include="Model\json\" />
+    <Folder Include="Script\GameFrame\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\YunLoong\YunLoong.csproj" />
+  </ItemGroup>
+
+</Project>

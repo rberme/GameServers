@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="obj555\**" />
+    <EmbeddedResource Remove="obj555\**" />
+    <None Remove="obj555\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MySql.Data" Version="8.0.11" />
+    <PackageReference Include="protobuf-net" Version="2.3.7" />
+    <PackageReference Include="RabbitMQ.Client" Version="5.1.0-rc1" />
+  </ItemGroup>
+
+</Project>

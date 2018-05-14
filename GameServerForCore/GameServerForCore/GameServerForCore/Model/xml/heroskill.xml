@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<info id="100001" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100002" name="主动1" skillid="60003,50001,10007" slotid="1,3" rocktype="231,214" costmp="0" elementtype="2" />
+<info id="100003" name="主动2" skillid="60004,50001,10004" slotid="7,8" rocktype="211,214" costmp="0" elementtype="2" />
+<info id="100004" name="被动1" slotid="4" rocktype="305" costmp="0" elementtype="0" />
+<info id="100005" name="被动2" slotid="5" rocktype="305" costmp="0" elementtype="0" />
+<info id="100006" name="被动3" slotid="6" rocktype="305" costmp="0" elementtype="0" />
+<info id="100011" name="普攻" skillid="50001,10003,10001" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100012" name="主动1" skillid="60003,50002,10007,10001" slotid="1,3" rocktype="211,214" costmp="3" elementtype="2" />
+<info id="100013" name="主动2" skillid="60004,50003,10003" slotid="7,8" rocktype="221,214" costmp="4" elementtype="2" />
+<info id="100014" name="被动1" skillid="40001" slotid="4" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100015" name="被动2" skillid="40014" slotid="5" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100016" name="被动3" skillid="40015" slotid="6" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100021" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100022" name="主动1" skillid="60003,50004,10005" slotid="1,3" rocktype="231,214" costmp="3" elementtype="2" />
+<info id="100023" name="主动2" skillid="60004,50001,10006" slotid="7,8" rocktype="211,214" costmp="4" elementtype="2" />
+<info id="100024" name="被动1" skillid="40002" slotid="4" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100025" name="被动2" slotid="5" rocktype="305" costmp="0" elementtype="0" />
+<info id="100026" name="被动3" skillid="40028" slotid="6" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100031" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100032" name="主动1" skillid="60003,50001,10007" slotid="1,3" rocktype="211,214" costmp="3" elementtype="2" />
+<info id="100033" name="主动2" skillid="60004,50005,10008" slotid="7,8" rocktype="221,214" costmp="4" elementtype="2" />
+<info id="100034" name="被动1" skillid="40003" slotid="4" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100035" name="被动2" skillid="40002" slotid="5" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100036" name="被动3" slotid="6" rocktype="305" costmp="0" elementtype="0" />
+<info id="100041" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100042" name="主动1" skillid="60003,50004,10005" slotid="1,3" rocktype="231,214" costmp="3" elementtype="2" />
+<info id="100043" name="主动2" skillid="60004,50004,10009" slotid="7,8" rocktype="231,214" costmp="4" elementtype="2" />
+<info id="100044" name="被动1" skillid="40004" slotid="4" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100045" name="被动2" skillid="40017" slotid="5" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100046" name="被动3" skillid="40025" slotid="6" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100051" name="普攻" skillid="50001,10003" slotid="2" rocktype="112,114" costmp="0" elementtype="0" />
+<info id="100052" name="主动1" skillid="60003,50004,10005" slotid="1,3" rocktype="231,214" costmp="3" elementtype="2" />
+<info id="100053" name="主动2" skillid="60004,50001,10010" slotid="7,8" rocktype="211,214" costmp="4" elementtype="2" />
+<info id="100054" name="被动1" skillid="40005" slotid="4" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100055" name="被动2" skillid="40018" slotid="5" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100056" name="被动3" slotid="6" rocktype="305" costmp="0" elementtype="0" />
+<info id="100061" name="普攻" skillid="50001,10003" slotid="2" rocktype="112,114" costmp="0" elementtype="0" />
+<info id="100062" name="主动1" skillid="60003,50001,10007" slotid="1,3" rocktype="211,214" costmp="3" elementtype="2" />
+<info id="100063" name="主动2" skillid="60004,50006,10003" slotid="7,8" rocktype="221,214" costmp="4" elementtype="2" />
+<info id="100064" name="被动1" skillid="40006" slotid="4" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100065" name="被动2" skillid="40019" slotid="5" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100066" name="被动3" skillid="40029" slotid="6" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100071" name="普攻" skillid="50001,10003" slotid="2" rocktype="112,114" costmp="0" elementtype="0" />
+<info id="100072" name="主动1" skillid="60003,50007,10003" slotid="1,3" rocktype="221,214" costmp="3" elementtype="2" />
+<info id="100073" name="主动2" skillid="60004,50004,10013" slotid="7,8" rocktype="231,214" costmp="4" elementtype="2" />
+<info id="100074" name="被动1" skillid="40007" slotid="4" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100075" name="被动2" skillid="40020" slotid="5" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100076" name="被动3" skillid="40005" slotid="6" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100081" name="普攻" skillid="50001,10003" slotid="2" rocktype="112,114" costmp="0" elementtype="0" />
+<info id="100082" name="主动1" skillid="60003,50005,10003" slotid="1,3" rocktype="221,214" costmp="3" elementtype="2" />
+<info id="100083" name="主动2" skillid="50002,10015" slotid="7,8" rocktype="211,214" costmp="1" elementtype="2" />
+<info id="100084" name="被动1" slotid="4" rocktype="305" costmp="0" elementtype="0" />
+<info id="100085" name="被动2" skillid="40021" slotid="5" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100086" name="被动3" skillid="40030" slotid="6" rocktype="301,304" costmp="0" elementtype="0" />
+<info id="100091" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100092" name="主动1" skillid="60002,50008,10016" slotid="1,3" rocktype="213,214" costmp="2" elementtype="1" />
+<info id="100093" name="主动2" skillid="60004,50009,10017" slotid="7,8" rocktype="223,214" costmp="4" elementtype="1" />
+<info id="100094" name="被动1" skillid="40009" slotid="4" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100095" name="被动2" skillid="40016" slotid="5" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100096" name="被动3" skillid="40012" slotid="6" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100101" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100102" name="主动1" skillid="60003,50010,10018" slotid="1,3" rocktype="223,214" costmp="3" elementtype="1" />
+<info id="100103" name="主动2" skillid="60004,50011,10019" slotid="7,8" rocktype="233,214" costmp="4" elementtype="1" />
+<info id="100104" name="被动1" slotid="4" rocktype="306" costmp="0" elementtype="0" />
+<info id="100105" name="被动2" skillid="40022" slotid="5" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100106" name="被动3" skillid="40024" slotid="6" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100111" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100112" name="主动1" skillid="60003,50011,10020" slotid="1,3" rocktype="233,214" costmp="3" elementtype="1" />
+<info id="100113" name="主动2" skillid="50012,10021,60004" slotid="7,8" rocktype="213,214" costmp="4" elementtype="1" />
+<info id="100114" name="被动1" skillid="40010" slotid="4" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100115" name="被动2" skillid="40023" slotid="5" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100116" name="被动3" skillid="40031" slotid="6" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100121" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100122" name="主动1" skillid="60003,50013,10022" slotid="1,3" rocktype="213,214" costmp="3" elementtype="1" />
+<info id="100123" name="主动2" skillid="60004,50009,10023" slotid="7,8" rocktype="223,214" costmp="4" elementtype="1" />
+<info id="100124" name="被动1" skillid="40011" slotid="4" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100125" name="被动2" skillid="40024" slotid="5" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100126" name="被动3" skillid="40027" slotid="6" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100131" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100132" name="主动1" skillid="60003,50014,10024" slotid="1,3" rocktype="223,214" costmp="3" elementtype="1" />
+<info id="100133" name="主动2" skillid="60004,50011,10025" slotid="7,8" rocktype="233,214" costmp="4" elementtype="1" />
+<info id="100134" name="被动1" skillid="40012" slotid="4" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100135" name="被动2" skillid="40011" slotid="5" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100136" name="被动3" slotid="6" rocktype="305" costmp="0" elementtype="0" />
+<info id="100141" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100142" name="主动1" skillid="60003,50011,10026" slotid="1,3" rocktype="233,214" costmp="3" elementtype="1" />
+<info id="100143" name="主动2" skillid="60004,50013,10027" slotid="7,8" rocktype="213,214" costmp="4" elementtype="1" />
+<info id="100144" name="被动1" skillid="40013" slotid="4" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100145" name="被动2" skillid="40023" slotid="5" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100146" name="被动3" skillid="40026" slotid="6" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100151" name="普攻" skillid="50001,10003" slotid="2" rocktype="112,114" costmp="0" elementtype="0" />
+<info id="100152" name="主动1" skillid="60003,50015,10028" slotid="1,3" rocktype="212,214" costmp="3" elementtype="2" />
+<info id="100153" name="主动2" skillid="60004,50007,10029" slotid="7,8" rocktype="222,214" costmp="4" elementtype="2" />
+<info id="100154" name="被动1" skillid="40001" slotid="4" rocktype="302,304" costmp="0" elementtype="0" />
+<info id="100155" name="被动2" skillid="40030" slotid="5" rocktype="302,304" costmp="0" elementtype="0" />
+<info id="100156" name="被动3" skillid="40005" slotid="6" rocktype="302,304" costmp="0" elementtype="0" />
+<info id="100161" name="普攻" skillid="50001,10003" slotid="2" rocktype="112,114" costmp="0" elementtype="0" />
+<info id="100162" name="主动1" skillid="60003,50016,10030" slotid="1,3" rocktype="222,214" costmp="3" elementtype="2" />
+<info id="100163" name="主动2" skillid="60004,50004,10031" slotid="7,8" rocktype="232,214" costmp="4" elementtype="2" />
+<info id="100164" name="被动1" skillid="40014" slotid="4" rocktype="302,304" costmp="0" elementtype="0" />
+<info id="100165" name="被动2" skillid="40006" slotid="5" rocktype="302,304" costmp="0" elementtype="0" />
+<info id="100166" name="被动3" slotid="6" rocktype="305" costmp="0" elementtype="0" />
+<info id="100171" name="普攻" skillid="50001,10003" slotid="2" rocktype="112,114" costmp="0" elementtype="0" />
+<info id="100172" name="主动1" skillid="60003,50004,10032" slotid="1,3" rocktype="232,214" costmp="3" elementtype="2" />
+<info id="100173" name="主动2" skillid="60004,50017,10033" slotid="7,8" rocktype="212,214" costmp="4" elementtype="2" />
+<info id="100174" name="被动1" skillid="40015" slotid="4" rocktype="302,304" costmp="0" elementtype="0" />
+<info id="100175" name="被动2" skillid="40025" slotid="5" rocktype="302,304" costmp="0" elementtype="0" />
+<info id="100176" name="被动3" slotid="6" rocktype="306" costmp="0" elementtype="0" />
+<info id="100181" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100182" name="主动1" skillid="60003,50013,10034" slotid="1,3" rocktype="213,214" costmp="3" elementtype="1" />
+<info id="100183" name="主动2" skillid="60004,50014,10035" slotid="7,8" rocktype="223,214" costmp="4" elementtype="1" />
+<info id="100184" name="被动1" skillid="40010" slotid="4" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100185" name="被动2" skillid="40026" slotid="5" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100186" name="被动3" skillid="40031" slotid="6" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100191" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100192" name="主动1" skillid="60003,50018,10036" slotid="1,3" rocktype="223,214" costmp="3" elementtype="1" />
+<info id="100193" name="主动2" skillid="60004,50011,10037" slotid="7,8" rocktype="233,214" costmp="4" elementtype="1" />
+<info id="100194" name="被动1" skillid="40016" slotid="4" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100195" name="被动2" skillid="40027" slotid="5" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100196" name="被动3" slotid="6" rocktype="305" costmp="0" elementtype="0" />
+<info id="100201" name="普攻" skillid="50001,10003" slotid="2" rocktype="111,114" costmp="0" elementtype="0" />
+<info id="100202" name="主动1" skillid="60003,50011,10038" slotid="1,3" rocktype="233,214" costmp="3" elementtype="1" />
+<info id="100203" name="主动2" skillid="60004,50019,10039" slotid="7,8" rocktype="213,214" costmp="4" elementtype="1" />
+<info id="100204" name="被动1" slotid="4" rocktype="306" costmp="0" elementtype="0" />
+<info id="100205" name="被动2" skillid="40013" slotid="5" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="100206" name="被动3" skillid="40022" slotid="6" rocktype="303,304" costmp="0" elementtype="0" />
+<info id="900001" name="回合开始时执行" skillid="90001,90002,90003,90004" />
+<info id="900002" name="回合结束执行" skillid="90005" />
+<info id="900003" name="技能选择时执行" skillid="90006" />
+<info id="910001" name="溅射结算" skillid="91001" />
+<info id="910002" name="buff施加结算" skillid="91002" />
+<info id="910003" name="对目标追加普攻" skillid="91003" />
+<info id="910004" name="治疗贯通" skillid="91004" />
+<info id="910005" name="创伤护盾" skillid="91005" />
+<info id="910006" name="创伤提速" skillid="91006" />
+</root>

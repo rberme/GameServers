@@ -1,0 +1,14 @@
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\bin\Debug\netcoreapp2.0\GameServerForCore.deps.json
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\bin\Debug\netcoreapp2.0\GameServerForCore.runtimeconfig.json
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\bin\Debug\netcoreapp2.0\GameServerForCore.runtimeconfig.dev.json
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\bin\Debug\netcoreapp2.0\GameServerForCore.dll
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\bin\Debug\netcoreapp2.0\GameServerForCore.pdb
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\bin\Debug\netcoreapp2.0\YunLoong.dll
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\bin\Debug\netcoreapp2.0\YunLoong.pdb
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\obj\Debug\netcoreapp2.0\GameServerForCore.csprojResolveAssemblyReference.cache
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\obj\Debug\netcoreapp2.0\GameServerForCore.csproj.CoreCompileInputs.cache
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\obj\Debug\netcoreapp2.0\GameServerForCore.AssemblyInfoInputs.cache
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\obj\Debug\netcoreapp2.0\GameServerForCore.AssemblyInfo.cs
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\obj\Debug\netcoreapp2.0\GameServerForCore.csproj.CopyComplete
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\obj\Debug\netcoreapp2.0\GameServerForCore.dll
+E:\SVN\GameServer\GameServerForCore\GameServerForCore\GameServerForCore\obj\Debug\netcoreapp2.0\GameServerForCore.pdb
