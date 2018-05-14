@@ -1,9 +1,0 @@
-E:\SVN\GameServer\GameServerForCore\GameServerForCore\YunLoong\bin\Debug\netcoreapp2.0\YunLoong.deps.json
-E:\SVN\GameServer\GameServerForCore\GameServerForCore\YunLoong\bin\Debug\netcoreapp2.0\YunLoong.dll
-E:\SVN\GameServer\GameServerForCore\GameServerForCore\YunLoong\bin\Debug\netcoreapp2.0\YunLoong.pdb
-E:\SVN\GameServer\GameServerForCore\GameServerForCore\YunLoong\obj\Debug\netcoreapp2.0\YunLoong.csprojResolveAssemblyReference.cache
-E:\SVN\GameServer\GameServerForCore\GameServerForCore\YunLoong\obj\Debug\netcoreapp2.0\YunLoong.csproj.CoreCompileInputs.cache
-E:\SVN\GameServer\GameServerForCore\GameServerForCore\YunLoong\obj\Debug\netcoreapp2.0\YunLoong.AssemblyInfoInputs.cache
-E:\SVN\GameServer\GameServerForCore\GameServerForCore\YunLoong\obj\Debug\netcoreapp2.0\YunLoong.AssemblyInfo.cs
-E:\SVN\GameServer\GameServerForCore\GameServerForCore\YunLoong\obj\Debug\netcoreapp2.0\YunLoong.dll
-E:\SVN\GameServer\GameServerForCore\GameServerForCore\YunLoong\obj\Debug\netcoreapp2.0\YunLoong.pdb
