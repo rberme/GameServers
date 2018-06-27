@@ -1,0 +1,151 @@
+package global
+
+import (
+	"errors"
+	"sync"
+	"sync/atomic"
+)
+
+var (
+	globalSessionID uint64
+
+	// ErrorSessionClosed .
+	ErrorSessionClosed = errors.New("Session Closed")
+
+	// ErrorSessionBlocked .
+	ErrorSessionBlocked = errors.New("Session Blocked")
+)
+
+// Session 客户端会话
+type Session struct {
+	ID      uint64
+	codec   Codec
+	manager *Manager
+	//sendChan  chan interface{}
+	//closeChan chan int //关闭发送通道
+	closeFlag int32 //表示是否已关闭 1关闭
+	//sendMutex  sync.RWMutex
+	//closeMutex sync.Mutex
+
+	firstCloseCallback *closeCallback //关闭时调用的回调,链表形式
+	lastCloseCallback  *closeCallback
+
+	State interface{}
+}
+
+type closeCallback struct {
+	Handler interface{}
+	Key     interface{}
+	Func    func()
+	Next    *closeCallback
+}
+
+var (
+	sessions     = make(map[uint64]*Session)
+	sessionMutex sync.RWMutex
+)
+
+// NewSession .
+func NewSession(codec Codec, sendChanSize int) *Session {
+	return newSession(nil, codec, sendChanSize)
+}
+
+func newSession(manager *Manager, codec Codec, sendChanSize int) *Session {
+	session := &Session{
+		codec:   codec,
+		manager: manager,
+		//closeChan: make(chan int),
+		ID: atomic.AddUint64(&globalSessionID, 1),
+	}
+	return session
+}
+
+// Close .
+func (session *Session) Close() error {
+	if atomic.CompareAndSwapInt32(&session.closeFlag, 0, 1) {
+		//close(session.closeChan)
+		err := session.codec.Close()
+
+		go func() {
+			session.invokeCloseCallbacks()
+
+			if session.manager != nil {
+				session.manager.delSession(session)
+			}
+		}()
+		return err
+	}
+	return ErrorSessionClosed
+}
+
+func (session *Session) invokeCloseCallbacks() {
+	for callback := session.firstCloseCallback; callback != nil; callback = callback.Next {
+		callback.Func()
+	}
+}
+
+// Receive 接收数据
+func (session *Session) Receive() (interface{}, error) {
+	msg, err := session.codec.Receive()
+	if err != nil {
+		session.Close()
+	}
+	return msg, err
+}
+
+// IsClosed .
+func (session *Session) IsClosed() bool {
+	return atomic.LoadInt32(&session.closeFlag) == 1
+}
+
+// Send .
+func (session *Session) Send(msg interface{}) error {
+	if session.IsClosed() {
+		return ErrorSessionClosed
+	}
+	err := session.codec.Send(msg)
+	if err != nil {
+		session.Close()
+	}
+	return err
+}
+
+// // AddSession 添加session
+// func AddSession(session *Session) {
+// 	sessionMutex.Lock()
+// 	defer sessionMutex.Unlock()
+
+// 	sessions[session.ID] = session
+// }
+
+// // RemoveSession ...
+// func RemoveSession(key uint64) {
+// 	sessionMutex.Lock()
+// 	defer sessionMutex.Unlock()
+// 	delete(sessions, key)
+// }
+
+// // GetSession ...
+// func GetSession(key uint64) *Session {
+// 	sessionMutex.RLock()
+// 	defer sessionMutex.RUnlock()
+
+// 	session, _ := sessions[key]
+// 	return session
+// }
+
+// // SessionLen ...
+// func SessionLen() int {
+// 	sessionMutex.RLock()
+// 	defer sessionMutex.RUnlock()
+// 	return len(sessions)
+// }
+
+// // FetchSession ...
+// func FetchSession(callback func(*Session)) {
+// 	sessionMutex.RLock()
+// 	defer sessionMutex.RUnlock()
+// 	for _, session := range sessions {
+// 		callback(session)
+// 	}
+// }
