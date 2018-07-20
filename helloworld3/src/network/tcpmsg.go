@@ -21,10 +21,10 @@ type MsgParser struct {
 // NewMsgParser .
 func NewMsgParser() *MsgParser {
 	p := new(MsgParser)
-	p.lenMsgLen = 2
+	p.lenMsgLen = 4
 	p.minMsgLen = 1
-	p.maxMsgLen = 4096
-	p.littleEndian = false
+	p.maxMsgLen = 8192
+	p.littleEndian = true
 
 	return p
 }
@@ -100,7 +100,7 @@ func (p *MsgParser) Read(conn *TCPConn) ([]byte, error) {
 	}
 
 	// data
-	msgData := make([]byte, msgLen)
+	msgData := make([]byte, msgLen-uint32(p.lenMsgLen))
 	if _, err := io.ReadFull(conn, msgData); err != nil {
 		return nil, err
 	}
@@ -109,12 +109,13 @@ func (p *MsgParser) Read(conn *TCPConn) ([]byte, error) {
 }
 
 // Write goroutine safe
-func (p *MsgParser) Write(conn *TCPConn, args ...[]byte) error {
+func (p *MsgParser) Write(conn *TCPConn, arg []byte) error {
 	// get len
-	var msgLen uint32
-	for i := 0; i < len(args); i++ {
-		msgLen += uint32(len(args[i]))
-	}
+	// var msgLen uint32
+	// for i := 0; i < len(args); i++ {
+	// 	msgLen += uint32(len(args[i]))
+	// }
+	msgLen := uint32(len(arg))
 
 	// check len
 	if msgLen > p.maxMsgLen {
@@ -126,6 +127,7 @@ func (p *MsgParser) Write(conn *TCPConn, args ...[]byte) error {
 	msg := make([]byte, uint32(p.lenMsgLen)+msgLen)
 
 	// write len
+	msgLen += uint32(p.lenMsgLen)
 	switch p.lenMsgLen {
 	case 1:
 		msg[0] = byte(msgLen)
@@ -145,10 +147,11 @@ func (p *MsgParser) Write(conn *TCPConn, args ...[]byte) error {
 
 	// write data
 	l := p.lenMsgLen
-	for i := 0; i < len(args); i++ {
-		copy(msg[l:], args[i])
-		l += len(args[i])
-	}
+	copy(msg[l:], arg)
+	// for i := 0; i < len(args); i++ {
+	// 	copy(msg[l:], args[i])
+	// 	l += len(args[i])
+	// }
 
 	conn.Write(msg)
 

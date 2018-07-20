@@ -9,15 +9,14 @@ import (
 
 // TCPServer .
 type TCPServer struct {
-	Addr            string
-	MaxConnNum      int //最大连接数
-	PendingWriteNum int //写通道缓存大小
-	NewAgent        func(*TCPConn) Agent
-	ln              net.Listener
-	conns           ConnSet //map net.Conn
-	mutexConns      sync.Mutex
-	wgLn            sync.WaitGroup //监听的数量
-	wgConns         sync.WaitGroup
+	Addr       string
+	MaxConnNum int //最大连接数
+	NewAgent   func(*TCPConn) Agent
+	ln         net.Listener
+	conns      ConnSet //map net.Conn
+	mutexConns sync.RWMutex
+	wgLn       sync.WaitGroup //监听的数量
+	wgConns    sync.WaitGroup
 
 	// msg parser 数据解析
 	LenMsgLen    int
@@ -43,10 +42,6 @@ func (me *TCPServer) init() {
 	if me.MaxConnNum <= 0 {
 		me.MaxConnNum = 100
 		llog.Release("invalid MaxConnNum, reset to %v", me.MaxConnNum)
-	}
-	if me.PendingWriteNum <= 0 {
-		me.PendingWriteNum = 100
-		llog.Release("invalid PendingWriteNum, reset to %v", me.PendingWriteNum)
 	}
 	if me.NewAgent == nil {
 		llog.Fatal("NewAgent must not be nil")
@@ -100,7 +95,7 @@ func (me *TCPServer) run() {
 
 		me.wgConns.Add(1)
 
-		tcpConn := newTCPConn(conn, me.PendingWriteNum, me.msgParser)
+		tcpConn := newTCPConn(conn, me.msgParser)
 		agent := me.NewAgent(tcpConn)
 		go func() {
 			agent.Run()
@@ -122,11 +117,11 @@ func (me *TCPServer) Close() {
 	me.ln.Close()
 	me.wgLn.Wait()
 
-	me.mutexConns.Lock()
+	me.mutexConns.RLock()
 	for conn := range me.conns {
 		conn.Close()
 	}
 	me.conns = nil
-	me.mutexConns.Unlock()
+	me.mutexConns.RUnlock()
 	me.wgConns.Wait()
 }

@@ -1,0 +1,38 @@
+syntax = "proto3";
+package model;
+
+message basemsg
+{
+    int32 msgcode = 1;
+    bytes buff = 2;
+}
+
+message GChatContent
+{
+    map<string,string> content = 1;
+}
+
+message GChatData
+{
+    int32 ChatType = 1;
+    int64 SendDate = 2;
+    repeated bytes Content = 3;
+    int64 FromUserID = 4;
+    string FromNick = 5;
+    int32 FromExp = 6;
+    string operID = 7;
+    bytes operParams = 8;
+    string icon = 9;
+    string border = 10;
+    int32 operType = 11;
+}
+
+message BPlayerData
+{
+    int64 pid = 1;
+    string pname = 2;
+    string picon = 3;
+    string piconborder = 4;
+    int32 pexp = 5;
+    int32 porganid = 6;
+}

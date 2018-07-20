@@ -1,8 +1,0 @@
-syntax = "proto3";
-package model;
-
-message basemsg
-{
-    int32 msgcode = 1;
-    bytes buff = 2;
-}

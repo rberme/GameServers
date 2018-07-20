@@ -1,0 +1,4 @@
+protoc --csharp_out=. --proto_path=. ChatModel.proto
+protoc --go_out=. --proto_path=. ChatModel.proto
+
+

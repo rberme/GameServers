@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<root>
+<info id="1" operType="1" operID="HeroUI" FromUserID="2" Content="#str,#58866e|正在挑战|#str,#a93105|请求其他指挥官的支援！|#点击加入,#58866e" />
+<info id="2" operType="0" FromUserID="0" Content="通过|#str,#58866e|的悉心教导|#str,#a93105|终于进阶到了|#SS级,#a93105|！" />
+<info id="3" operType="0" FromUserID="3" Content="#str,#58866e|欧气爆发，抽取到|#SS级,#a93105|印痕武器|#str,#a93105|！" />
+<info id="4" operType="0" FromUserID="0" Content="#str,#58866e|努力积累，终于合成出了|#SS级,#a93105|印痕武器|#str,#a93105|！" />
+<info id="5" operType="0" FromUserID="0" Content="#str,#58866e|经过不懈努力，终于将|#str,#a93105|强化满级！" />
+<info id="7" operType="0" FromUserID="0" Content="#str,#58866e|经过不懈努力，终于将|#str,#a93105|觉醒！" />
+<info id="9" operType="0" FromUserID="0" Content="恭喜伟大的指挥官|#str,#58866e|成功晋升至|#str,#a93105|，引来各方崇拜的目光！" />
+<info id="10" operType="0" FromUserID="0" Content="#str,#58866e|成功通关困难难度|#str,#a93105|，可以说是非常棒棒了！" />
+<info id="11" operType="1" operID="HeroUI,HeroUI,GeneralUIEmpty" FromUserID="1" Content="#str,#a93105|即将于|#str,#a93105|开启，各位指挥官做好准备了吗？|#点击加入,#58866e" />
+<info id="12" operType="1" operID="HeroUI" FromUserID="1" Content="#str,#a93105|已经于|#str,#a93105|开启，祝大家好运！|#点击加入,#58866e" />
+<info id="13" operType="1" operID="HeroUI" FromUserID="1" Content="#str,#a93105|即将于|#str,#a93105|结束，还在战斗中的大家抓紧时间咯！|#点击加入,#58866e" />
+<info id="14" operType="0" FromUserID="1" Content="#str,#a93105|已经于|#str,#a93105|结束，未尽兴的指挥官敬请期待下一次的战斗哦~" />
+<info id="15" operType="1" operID="HeroUI" FromUserID="1" Content="#str,#a93105|即将于|#str,#a93105|开启，各位指挥官做好准备了吗？|#点击加入,#58866e" />
+<info id="16" operType="1" operID="HeroUI" FromUserID="1" Content="#str,#a93105|已经于|#str,#a93105|开启，祝大家好运！|#点击加入,#58866e" />
+<info id="17" operType="1" operID="HeroUI" FromUserID="1" Content="#str,#a93105|即将于|#str,#a93105|结束，未完成的指挥官抓紧时间咯！|#点击参与活动,#58866e" />
+<info id="18" operType="0" FromUserID="1" Content="#str,#a93105|已经于|#str,#a93105|结束，未尽兴的指挥官敬请期待下一次的活动哦~" />
+<info id="19" operType="0" FromUserID="1" Content="尊敬的指挥官们，西格尼特学园即将于|#str,#a93105|清校进行校内维护，请准时下线，以免指挥部误伤哦~" />
+</root>
