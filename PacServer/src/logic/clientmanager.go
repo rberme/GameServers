@@ -103,6 +103,8 @@ func (me *ClientManager) ClearExpired() (clientNum int) {
 					} else {
 						clientNum++
 					}
+					// if deltatime > 3600 {
+
 				} else {
 					if v.ClientSocket != nil {
 						v.WriteMsg(MSG_CODE_HEARTBEAT_RET, now)
